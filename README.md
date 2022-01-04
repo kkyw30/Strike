@@ -1,2 +1,4 @@
 # Strike
-Strike is a device that can correct your running foot positioning mid-run
+Strike is a device that can correct your running foot positioning mid-run. The hardware contains an Arduino circuit with three pushbuttons. Depending on the order in which the buttons were pressed, and the time difference between the button presses, the Arduino code is able to classify which type of foot positioning a runner used for that particular step. Based on this information, a different LED on the circuit will light up, and a different message will be sent to the cloud via the Blynk app. This information is then directly accessible from your phone (via the Blynk app), making it easy to use for users. 
+
+This repository contains the program used to control the circuit, as well as the code used to export the registered signals to the Blynk app. I am currently in the process of creating a mobile app to more efficiently monitor the foot strike data for runners, and provide additional, specific information that is unavailable on the Blynk app. 
